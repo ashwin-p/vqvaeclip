@@ -16,7 +16,7 @@ model:
       params:
         trainable: False
         token_shape: [16, 16]
-        config_path: /kaggle/working/imagegen_code/OUTPUT/pretrained_model/taming_dvae/taming_f16_4096_coco.yaml
+        config_path: /kaggle/working/OUTPUT/pretrained_model/taming_dvae/taming_f16_4096_coco.yaml
         ckpt_path: /kaggle/input/vqvae_mscoco/pytorch/default/1/vqvae_coco.ckpt
         num_tokens: 4096
         quantize_number: 0
